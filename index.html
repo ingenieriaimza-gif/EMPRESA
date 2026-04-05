@@ -8,6 +8,17 @@
     <meta name="description" content="Sistema de gestión de obras de construcción" />
     <link rel="manifest" href="/manifest.json" />
     <title>Empresa - Construcción</title>
+    <!-- GitHub Pages SPA redirect handler -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.getItem('spa-redirect');
+        if (redirect) {
+          sessionStorage.removeItem('spa-redirect');
+          var url = new URL(redirect);
+          history.replaceState(null, null, url.pathname + url.search + url.hash);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

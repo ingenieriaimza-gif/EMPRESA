@@ -2,7 +2,7 @@
   "name": "Empresa - Gestión de Obras",
   "short_name": "Empresa",
   "description": "Sistema de gestión de obras de construcción",
-  "start_url": "/",
+  "start_url": "/EMPRESA/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1d4ed8",
